@@ -1,4 +1,4 @@
-package krantikDec19;
+package krantikhair;
 
 public class Test {
 
