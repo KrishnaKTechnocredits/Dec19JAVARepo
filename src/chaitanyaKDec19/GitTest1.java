@@ -15,13 +15,8 @@ public class GitTest1 {
 			
 			String wordOfString = "";
 			wordOfString = arrOfStr[i];
-			int counter=0;
 			
-			for(int j=0; j<wordOfString.length(); j++) {
-				counter++;
-			}
-			
-			System.out.println(wordOfString+ ":"+counter);
+			System.out.println(wordOfString+ ":"+wordOfString.length());
 		}
 	}
 	
