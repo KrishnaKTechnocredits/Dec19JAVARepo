@@ -1,4 +1,4 @@
-package krantikDec19;
+package krantiKDec19;
 
 public class Test {
 
