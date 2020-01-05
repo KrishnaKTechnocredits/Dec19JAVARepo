@@ -10,10 +10,10 @@ public class GitTest1 {
 		
 		String[] arrOfStr = string.split(" ");
 		System.out.println("Total number of words: "+arrOfStr.length);
+		String wordOfString = "";
 		
 		for(int i=0; i<arrOfStr.length; i++) {
 			
-			String wordOfString = "";
 			wordOfString = arrOfStr[i];
 			
 			System.out.println(wordOfString+ ":"+wordOfString.length());
