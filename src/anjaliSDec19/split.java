@@ -16,7 +16,7 @@ public class split {
 	
 	public static void main(String[] args) 
 	{
-		String str ="Anjali Atul Shroff TCS SINGLE";
+		String str ="Hi I am Anjali Atul Shroff";
 		
 		split s2 =new split();
 		s2.Extract(str);
