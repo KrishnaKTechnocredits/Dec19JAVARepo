@@ -1,3 +1,4 @@
+package sameerDDec19.assignment1;
 /*
  * You are given a string S. Count the number of occurrences of all the digits in the string S.
   */
