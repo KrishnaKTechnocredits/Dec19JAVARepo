@@ -1,4 +1,4 @@
-package assignment1;
+package shivaniGDec19.assignment1;
 
 import java.util.Scanner;
 
