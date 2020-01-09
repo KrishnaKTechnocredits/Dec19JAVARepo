@@ -1,5 +1,9 @@
 package chaitanyaKDec19.AssignmentTwo;
 
+/*
+ * WAP to print unique number from the two different array
+ */
+
 public class Question11 {
 
 	void displayUniqueNumers(int[] arrOne, int[] arrTwo) {
