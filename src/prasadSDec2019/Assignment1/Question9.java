@@ -1,4 +1,4 @@
-package Assignment1;
+package prasadSDec2019.Assignment1;
 
 //  You are given a String s. 
 //  Count the number of occurrences of all the digits in the Integer number

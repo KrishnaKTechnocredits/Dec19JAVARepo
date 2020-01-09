@@ -1,4 +1,4 @@
-package Assignment1;
+package prasadSDec2019.Assignment1;
 import java.util.Scanner;
 
 //You are given two numbers N and M, print the absolute difference between two numbers 

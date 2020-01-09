@@ -1,4 +1,4 @@
-package Assignment1;
+package prasadSDec2019.Assignment1;
 
 //Write a program to print the sum of element’s squares of an array having size of N. 
 
