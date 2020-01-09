@@ -1,5 +1,4 @@
-package Assignment2;
-
+package prasadSDec2019.Assignment2;
 //) WAP to print even number from the array 
 
 public class Question14 {

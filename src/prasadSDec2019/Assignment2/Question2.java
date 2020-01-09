@@ -1,4 +1,4 @@
-package Assignment2;
+package prasadSDec2019.Assignment2;
 
 // Find duplicate number on Integer array in Java
 

@@ -1,4 +1,4 @@
-package Assignment2;
+package prasadSDec2019.Assignment2;
 
 public class Question11 {
 	int count=0;

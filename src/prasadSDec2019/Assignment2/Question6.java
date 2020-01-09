@@ -1,4 +1,4 @@
-package Assignment2;
+package prasadSDec2019.Assignment2;
 
 //Write a java program to check the equality of two arrays? 
 
