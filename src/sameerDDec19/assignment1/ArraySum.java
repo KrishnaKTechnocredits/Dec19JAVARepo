@@ -1,3 +1,4 @@
+package sameerDDec19.assignment1;
 /*
 *
 *Write a program to add the corresponding elements of two arrays, each of size N and print the sums. N can be any integer between 1 and 100. 1≤N≤100

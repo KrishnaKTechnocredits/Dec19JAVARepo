@@ -1,3 +1,4 @@
+package sameerDDec19.assignment1;
 /*Write a program to print the sum of all the element of an array of size having N.
 Hint:
  *   Input: int []array = {6, 3, 8,}

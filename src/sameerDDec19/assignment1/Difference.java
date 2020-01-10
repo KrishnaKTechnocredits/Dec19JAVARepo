@@ -1,3 +1,4 @@
+package sameerDDec19.assignment1;
 /*
 *
 *You are given two numbers N and M, print the absolute difference between two numbers i.e. |N−M|

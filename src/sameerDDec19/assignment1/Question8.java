@@ -1,3 +1,4 @@
+package sameerDDec19.assignment1;
 /*
 You are given a String s, which comprises English alphabets, determine the count of all the vowels in S. Vowels are [a,e,i,o,u]. Print the count of all the vowels that are available in the String s.
 */

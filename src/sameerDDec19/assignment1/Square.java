@@ -1,5 +1,4 @@
-//import java.util.*;
-
+package sameerDDec19.assignment1;
 /*
 *
 *Write a program to print the sum of squares of the elements of an array of size N. N can be any integer between 1 and 100. 1≤N≤100
