@@ -6,6 +6,6 @@ output Array :- {1, 3, 6, 9, 7, 2, 5, 8}*/
 
 public class Solution11 {
 	
-	int [] a1 = 
+
 
 }
