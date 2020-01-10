@@ -4,25 +4,26 @@ package sonalPDec19.assignment1;
  */
 
 public class Question9 {
+	
 	static void digitFreqCount(char digit, String number)
 	{
 		int count = 0;
-		for(int i=0; i<number.length(); i++)
+		for (int i=0; i<number.length(); i++)
 		{
-			if(digit == number.charAt(i))
+			if(digit ==number.charAt(i))
 				count++;
 		}
-		System.out.println("Freq of digit "+digit + " is "+count);
+		System.out.println("Freq of digit " + digit + " is " +count);
 	}
-	
-	public static void main(String[] a)
+
+public static void main(String[] args) {
+	String number = "12288645603";
+	for(int i=0; i<number.length();i++)
 	{
-		String number = "128896";
-		digitFreqCount('1', number);
-		digitFreqCount('2', number);
-		digitFreqCount('8', number);
-		digitFreqCount('9', number);
-		digitFreqCount('6', number);
+		char ch = number.charAt(i);
+		int index = number.indexOf(ch);
+		if (i== index)
+			digitFreqCount(ch, number);
 	}
 }
-
+}
