@@ -8,9 +8,9 @@ public class Solution7 {
 	
 		void findSumOfArray(int sum, int[] d) 
 		{
-			for (int i = 0; i<d.length-5; i++)
+			for (int i = 0; i<d.length; i++)
 			{
-				for (int j=0; j<d.length;j++)
+				for (int j=i+1; j<d.length;j++)
 				{
 					int output = d[i]+d[j];
 					if ( sum== output)
