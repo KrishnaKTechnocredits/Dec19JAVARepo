@@ -1,4 +1,4 @@
-package poonamDDec19;
+package poonamDDec19.assignment1;
 
 public class Test {
 
