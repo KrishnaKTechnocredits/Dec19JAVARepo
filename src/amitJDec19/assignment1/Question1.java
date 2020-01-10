@@ -1,4 +1,4 @@
-package assignment1;
+package amitJDec19.assignment1;
 /*
  * Write a program to print the sum of two integers.
  */
