@@ -1,5 +1,5 @@
 package sairajJDec19.assignment2;
-
+// find minimum and maximum number in array
 public class Question4 {
 	
 	void prinMinMax(int[]a) {

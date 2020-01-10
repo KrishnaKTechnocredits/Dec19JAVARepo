@@ -1,5 +1,5 @@
 package sairajJDec19.assignment2;
-
+//check if arrays are equal
 public class Question6 {
 	
 	void checkArrayEqual(int[] a, int[]b) {

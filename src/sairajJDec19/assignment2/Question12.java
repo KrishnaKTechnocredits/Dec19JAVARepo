@@ -1,5 +1,5 @@
 package sairajJDec19.assignment2;
-
+// to get common number from two arrays
 public class Question12 {
 		static void getCommon(int[] a, int[]b) {
 			int[]ans = new int[a.length]; 
