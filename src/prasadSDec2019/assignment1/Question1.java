@@ -1,4 +1,4 @@
-package prasadSDec2019.assignment1;
+package prasadSDec2019.Assignment1;
 
 public class Question1 {
 
