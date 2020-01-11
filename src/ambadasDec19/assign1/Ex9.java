@@ -1,3 +1,5 @@
+package ambadasDec19.assign1;
+
 public class Ex9 
 {
 	public void countOccurance(String number)

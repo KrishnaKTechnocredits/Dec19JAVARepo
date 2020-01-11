@@ -1,3 +1,5 @@
+package ambadasDec19.assign1;
+
 class Ex8	
 {
 	public void countVowels(String str)
