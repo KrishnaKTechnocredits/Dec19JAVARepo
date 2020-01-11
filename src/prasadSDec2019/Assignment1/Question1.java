@@ -17,3 +17,4 @@ public class Question1 {
 		System.out.println("Sum of Two integer is:"+sum);
 	}
 }
+
