@@ -1,5 +1,5 @@
 package sairajJDec19.assignment2;
-
+// find the index at which different numbers present
 public class Question8 {
 		void firstDiffer(int[]a, int[]b) {
 			for(int i = 0; i<a.length;i++) {

@@ -1,5 +1,5 @@
 package sairajJDec19.assignment2;
-
+// get index of all the indexes with different numbers
 public class Question9 {
 	
 	void allDiffer(int[]a, int[]b) {

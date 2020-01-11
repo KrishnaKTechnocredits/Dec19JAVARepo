@@ -1,5 +1,5 @@
 package sairajJDec19.assignment2;
-
+//find the pairs of given sum
 public class Question7 {
 	
 	void findPairs(int[] a, int sum) {
