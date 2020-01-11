@@ -5,30 +5,23 @@ public class SumOfPrimeNoTest {
 	void sumPrimeNo(int[] numArray) {
 
 		int sumPrime = 0;
-		int count=0;
 
 		for (int i = 0; i < numArray.length; i++) {
 
-			for(int j=1;j<=(numArray[i]/2);j++){
-				
-				if(numArray[i]%j == 0){
-					
-					count++;
-				 
-				}
+			boolean flag = false;
+			for (int j = 2; j < (numArray[i] / 2); j++) {
 
+				if (numArray[i] % j == 0) {
+					flag = true;
+					break;
+				}
 			}
-			if(count<=2){
-				
-			sumPrime= sumPrime + numArray[i];
-				
-			}
-			
-			count =0;
+			if (flag == false)
+				sumPrime = sumPrime + numArray[i];
+
 		}
-		
-		System.out.println("Sum of Prime Numbers: "+sumPrime);
-		
+
+		System.out.println("Sum of Prime Numbers: " + sumPrime);
 
 	}
 
