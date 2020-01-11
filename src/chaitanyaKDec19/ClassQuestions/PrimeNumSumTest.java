@@ -1,5 +1,9 @@
 package chaitanyaKDec19.ClassQuestions;
 
+/*
+ * Accept numbers from user and print sum of prime numbers only from given input
+ */
+
 public class PrimeNumSumTest {
 
 	static int primeNumberTotal = 0;

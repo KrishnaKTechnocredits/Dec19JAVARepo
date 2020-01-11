@@ -1,5 +1,9 @@
 package chaitanyaKDec19.ClassQuestions;
 
+/*
+ * Accept multiple strings from user and print it in reverse order
+ */
+
 public class StringReverse {
 
 	public static void main(String[] args) {

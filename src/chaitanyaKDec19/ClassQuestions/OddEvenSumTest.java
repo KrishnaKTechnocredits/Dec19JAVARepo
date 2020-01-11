@@ -1,5 +1,9 @@
 package chaitanyaKDec19.ClassQuestions;
 
+/*
+ * Accept numbers from user and print odd,even numbers
+ */
+
 public class OddEvenSumTest {
 
 	public static void main(String[] args) {

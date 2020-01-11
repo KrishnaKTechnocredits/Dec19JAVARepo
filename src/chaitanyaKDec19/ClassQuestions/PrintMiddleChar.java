@@ -1,5 +1,9 @@
 package chaitanyaKDec19.ClassQuestions;
 
+/*
+ * Accept multiple strings from user and print middle character of the longest string
+ */
+
 public class PrintMiddleChar {
 
 	public static void main(String[] args) {
