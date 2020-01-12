@@ -12,6 +12,7 @@ public class OddEvenSumTest {
 				osum=osum+Integer.parseInt(str[i]);
 		}
 		System.out.println("Sum of even numbers is :"+ esum);
+		System.out.println(" ");
 		System.out.println("SUm of odd number is :"+ osum);
 	}
 	public static void main(String[] args) {
