@@ -13,6 +13,7 @@ public class OddEvenSumTest {
 			if(num%2==0)
 			{
 			evenSum=evenSum+Integer.parseInt(data[i]);
+			System.out.println("Hi");
 			
 			}else
 			{
