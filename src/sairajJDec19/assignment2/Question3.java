@@ -1,5 +1,5 @@
 package sairajJDec19.assignment2;
-
+//check if number present in array
 public class Question3 {
 	
 	void checkPresent(int[] a, int n) {

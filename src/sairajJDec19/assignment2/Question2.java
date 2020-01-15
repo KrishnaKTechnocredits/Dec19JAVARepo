@@ -1,5 +1,5 @@
 package sairajJDec19.assignment2;
-
+// get duplicate number from array
 public class Question2 {
 		
 	int getDuplicate(int[] a) {
