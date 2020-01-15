@@ -6,5 +6,6 @@ public class Test {
 		System.out.println("Welcome to TechnoCredits Family.");
 		System.out.println("Hello");
 
+		System.out.println("Hello hi");
 	}
 }
