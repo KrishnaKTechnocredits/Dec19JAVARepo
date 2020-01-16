@@ -5,6 +5,20 @@ public class Question14 {
 	void printUniqueArray(int[] arrOne, int[] arrTwo) {
 
 		boolean flag = false;
+		int[] numArrOne = new int[arrOne.length];
+		int[] numArrTwo = new int[arrTwo.length];
+
+		for (int i = 0; i < numArrOne.length; i++) {
+
+			for (int j = 0; j < i; j++) {
+
+				if (arrOne[i] != arrOne[j]) {
+					numArrOne[i] = arrOne[i];
+					System.out.println(numArrOne[i]);
+				}
+			}
+
+		}
 
 		System.out.print("Unique numbers in both arrays are: ");
 
