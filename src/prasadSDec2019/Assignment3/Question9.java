@@ -1,5 +1,5 @@
 package prasadSDec2019.Assignment3;
-
+//WAP to find average of user given array 
 import java.util.Scanner;
 
 public class Question9 {
