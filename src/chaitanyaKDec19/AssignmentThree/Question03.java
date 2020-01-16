@@ -7,6 +7,7 @@ public class Question03 {
 		int chCount = 0;
 		int i = 0;
 
+		// Counting occurrence of character in given string
 		while (i < string.length()) {
 
 			if (string.charAt(i) == ch)
@@ -16,6 +17,7 @@ public class Question03 {
 
 		}
 
+		// Printing occurrence of character in a given string
 		System.out.println("The occurance of given character " + ch + " in a given string is: " + chCount);
 
 	}

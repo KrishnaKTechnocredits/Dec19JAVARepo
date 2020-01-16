@@ -8,6 +8,7 @@ public class Question05 {
 		int remainder = 0;
 		int reverseNum = 0;
 
+		// Getting digits from given number in reverse order
 		while (localNum != 0) {
 
 			remainder = localNum % 10;
@@ -16,6 +17,7 @@ public class Question05 {
 
 		}
 
+		// returning reverse number
 		return reverseNum;
 	}
 

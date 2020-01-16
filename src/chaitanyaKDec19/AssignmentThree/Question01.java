@@ -13,6 +13,8 @@ public class Question01 {
 		positiveNum = new int[numArr.length];
 		negativeNum = new int[numArr.length];
 
+		// sorting of positive & negative numbers from given array and storing them in
+		// different arrays
 		for (int i = 0, j = 0; i < numArr.length; i++) {
 
 			if (numArr[i] > 0)
@@ -25,6 +27,8 @@ public class Question01 {
 
 		int k = 0;
 		int l = 0;
+
+		// Calculating sum of positive numbers and printing positive number
 		System.out.print("Positive numbers from given array are: ");
 		while (k < positiveNum.length) {
 			if (positiveNum[k] != 0) {
@@ -35,6 +39,7 @@ public class Question01 {
 			k++;
 		}
 
+		// Calculating sum of negative numbers and printing negative number
 		System.out.println();
 		System.out.print("Negative numbers from given array are: ");
 		while (l < negativeNum.length) {
@@ -46,6 +51,7 @@ public class Question01 {
 			l++;
 		}
 
+		// Printing sum of positive & negative numbers
 		System.out.println();
 		System.out.println("Sum of positive numbers from given array is: " + positiveSum);
 		System.out.println("Sum of negative numbers from given array is: " + negativeSum);
