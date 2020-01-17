@@ -3,6 +3,8 @@ package rohiniBDec19.RohiniAssignment3;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/*WAP to return a positive number and negative number array and adding of both*/
+
 public class Program1 {
 	
 	public static void main(String[] args) {

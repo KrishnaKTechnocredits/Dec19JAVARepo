@@ -3,6 +3,8 @@ package rohiniBDec19.RohiniAssignment3;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/*WAP to find max length of string and string itself*/
+
 public class Program2 {
 
 	public static void main(String[] args) {
