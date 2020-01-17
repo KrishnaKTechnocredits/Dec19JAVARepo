@@ -6,6 +6,7 @@ public class Question08 {
 
 		int vowelCnt = 0;
 
+		// counting the occurrence of each vowel in a given string
 		for (int i = 0; i < a.length(); i++) {
 
 			if (a.charAt(i) == ' ')
@@ -24,6 +25,7 @@ public class Question08 {
 			}
 		}
 
+		// displaying vowel count in given string
 		System.out.println("Vowel count in a given string is: " + vowelCnt);
 	}
 }

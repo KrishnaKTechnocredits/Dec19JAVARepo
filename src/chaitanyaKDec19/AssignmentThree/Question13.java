@@ -8,6 +8,7 @@ public class Question13 {
 		int sum = 0;
 		int remainder = 0;
 
+		// Getting each digit from number and adding cube of that digit to a variable
 		while (num != 0) {
 
 			remainder = num % 10;
@@ -15,10 +16,12 @@ public class Question13 {
 			num = num / 10;
 		}
 
+		// Checking if given number is Armstrong or not and displaying appropriate
+		// information
 		if (sum == originalNum)
-			System.out.println("Given number: " + originalNum + " is a Palindrome Numer");
+			System.out.println("Given number: " + originalNum + " is an Armstrong Numer");
 		else
-			System.out.println("Given number: " + originalNum + " is a Not Palindrome Numer");
+			System.out.println("Given number: " + originalNum + " is not an Armstrong Numer");
 
 	}
 
