@@ -1,4 +1,4 @@
-package assignment3;
+package sonalPDec19.assignment3;
 /*
  * WAP to find frequency of user defined character in user defined String
 	a. i.e. User String :- “electrical engineering”
