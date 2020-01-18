@@ -1,5 +1,5 @@
 package sairajJDec19.assignment2;
-
+// find maximum number at different index
 public class Question10 {
 	
 	void maxAtDiffer(int[]a, int[]b) {

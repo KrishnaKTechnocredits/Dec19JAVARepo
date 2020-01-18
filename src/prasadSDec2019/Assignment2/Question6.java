@@ -25,4 +25,5 @@ public class Question6 {
 		Question6 q6=new Question6();
 		q6.sumEqual(array1,array2);
 	}
+	
 }
