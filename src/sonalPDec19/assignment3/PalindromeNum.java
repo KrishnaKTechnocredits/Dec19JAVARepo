@@ -1,4 +1,4 @@
-package assignment3;
+package sonalPDec19.assignment3;
 /*
  * WAP to find number is palindrome or not?
  */
