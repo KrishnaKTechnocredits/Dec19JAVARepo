@@ -12,10 +12,10 @@ public class AlphaNumericAddition {
 			boolean isDigit = Character.isDigit(ch);
 			if (isDigit == true) {
 				number = number + Integer.parseInt(str.valueOf(ch));
-			} else if (isDigit == false) {
+			} else
 				alpha = alpha + ch;
 			}
-		}
+		
 		System.out.println("Addition of num is " + number);
 		System.out.println("Characters are " + alpha);
 	}
