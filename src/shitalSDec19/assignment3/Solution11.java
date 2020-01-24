@@ -1,4 +1,4 @@
-/* WAP to find to number is palindrome or not. 
+/* WAP to find to number is palindrome or not.
  * Note:- Palindrome means given word/number is same to read from forward and backward
  *  i.e. actual number :- 12321 reverse  of actual number :- 12321 */
 
@@ -18,12 +18,8 @@ public class Solution11 {
 			reverse = reverse*10;
 			reverse = reverse + n%10;
 			n = n/10;
-			if (original == reverse)
-				flag = true;
-			else
-				flag = false;
 			}
-		if (flag == true)
+		if (original == reverse)
 			System.out.println("Given number is Palindrome");
 		else
 			System.out.println("Given number is NOT Palindrome");

@@ -12,12 +12,8 @@ public class Solution12 {
 		for (int i=s.length()-1; i>=0;i--)
 		{
 			reverse = reverse + s.charAt(i);
-			if (s.equals(reverse))
-				flag = true;
-			else
-				flag = false;
 		}
-			if (flag == true)
+			if (s.equals(reverse))
 				System.out.println("String name " + s + " is palindrome");
 			else
 				System.out.println("String name " + s + " is NOT palindrome");
