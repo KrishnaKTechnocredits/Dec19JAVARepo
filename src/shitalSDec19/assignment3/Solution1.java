@@ -11,22 +11,28 @@ d. negative number sum :- 48  */
 package shitalSDec19.assignment3;
 import java.util.Scanner;
 public class Solution1 {
-	
+	//int [] positive= {};
+	int a=0; int b=0; int psum=0; int nsum=0;
+	//int [] negative = {};
 	void findPositiveNos(int [] n)
 	{		
-		int arr1[] = new int[n.length];
-		int arr2[] = new int[n.length];
-		
 		for (int i =0; i<n.length; i++)
 			{
 				if (n[i] >= 0)
-					arr1=n;
+				//{a = n[i];
+					{
+					System.out.println("positive numbers = " + n[i] );
+					psum = psum+ n[i];
+					}
+				
 				else 
-					arr2=n;
+					//b = n[i];
+				{
+					System.out.println(" negative numbers = " + n[i]);
+					nsum = nsum + n[i];
+				}
 			}
-	
-		System.out.println("positive numbers = " + arr1 + " negative numbers = " + arr2);		
-		
+		System.out.println("sum of positive numbers : " +psum + " and sum of negative numbers : " + nsum);
 	}
 	public static void main(String args[])
 	{
