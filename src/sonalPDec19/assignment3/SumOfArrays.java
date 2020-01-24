@@ -1,4 +1,4 @@
-package assignment3;
+package sonalPDec19.assignment3;
 /*
  * WAP to sum of two array
 	a. firstArray :- {1, 5, 9, 3, 7}
