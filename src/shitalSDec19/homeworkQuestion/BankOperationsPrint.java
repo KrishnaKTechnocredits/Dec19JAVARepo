@@ -1,3 +1,7 @@
+/* (i). Bank class contains 2 methodsgit debit() and credit()
+ * (ii). Print total number of debit operations and total no of credit operations
+ * (iii). print individual debit operations and individual credit operations. */
+
 package shitalSDec19.homeworkQuestion;
 
 import java.util.Scanner;
