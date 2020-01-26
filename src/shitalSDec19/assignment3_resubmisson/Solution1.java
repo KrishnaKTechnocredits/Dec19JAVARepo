@@ -10,8 +10,6 @@
 
 package shitalSDec19.assignment3_resubmisson;
 
-import java.util.Scanner;
-
 public class Solution1 {
 
 	int psum = 0;
