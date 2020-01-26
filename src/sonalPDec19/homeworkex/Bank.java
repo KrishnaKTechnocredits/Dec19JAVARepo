@@ -10,8 +10,8 @@ public class Bank {
 	int accNo;
 	static int dTotalCount;
 	static int cTotalCount;
-	int debitCount;
-	int creditCount;
+	//int debitCount;
+	//int creditCount;
 
 	Bank(String name, int id) {
 		accName = name;
