@@ -14,7 +14,7 @@ public class Constructor1 {
 	static int rdCount = 0, sdCount = 0, rwCount = 0, swCount = 0;
 
 	public static void main(String[] args) {
-		Constructor1 cons = new Constructor1("Rohini", 123545653, 50000, 1200, 6000);
+		Constructor1 cons = new Constructor1("Rohini", 132434351, 50000, 6000, 3000);
 		cons.deposite();// 1st deposit of Rohini
 		cons.withdraw();// 1st withdraw
 		cons.deposite();// 2nd deposit of Rohini
@@ -58,11 +58,11 @@ public class Constructor1 {
 	}
 
 	public Constructor1(String name, long accNum, long bal, long deposite, long withdraw) {
-		this.nameOfAcctHolder = name;
-		this.acctNumber = accNum;
-		this.balance = bal;
-		this.depositeAmt = deposite;
-		this.withdrawAmt = withdraw;
+		this.nameOfAcctHolder = "Rohini";
+		this.acctNumber = 132434351;
+		this.balance = 50000;
+		this.depositeAmt = 6000;
+		this.withdrawAmt = 3000;
 
 	}
 
