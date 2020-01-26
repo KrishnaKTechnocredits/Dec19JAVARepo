@@ -14,10 +14,10 @@ public class Solution6 {
 			if (maxLength < arr[i].length()) {
 				maxLength = arr[i].length();
 				maxLengthName = arr[i];
-				for (int j = maxLengthName.length() - 1; j >= 0; j--) {
-					reverse = reverse + maxLengthName.charAt(j);
-				}
 			}
+		}
+		for (int j = maxLength - 1; j >= 0; j--) {
+			reverse = reverse + maxLengthName.charAt(j);
 		}
 		System.out.println("output max length string is " + maxLengthName + " and its length is " + maxLength);
 		System.out.println("Max length string reverse value " + reverse);
