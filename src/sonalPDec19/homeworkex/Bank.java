@@ -38,15 +38,15 @@ public class Bank {
 
 	public static void main(String[] args) {
 		Bank t1 = new Bank("Sonal", 1);
-		int[] sNewBalEntries = { 1000, 2000, 5000, 9000, 4000 };
+		int[] sNewBalEntries = { 1000, 2000, 5000, 9000, 4000 }; //Balance checked for defined time interval.
 		t1.transaction(5000, sNewBalEntries);
 
 		Bank t2 = new Bank("Shekhar", 2);
-		int[] shNewBalEntry = { 2000, 2000, 5500, 3500 };
+		int[] shNewBalEntry = { 2000, 2000, 5500, 3500, 7000 }; //Balance checked for defined time interval.
 		t2.transaction(3500, shNewBalEntry);
 
 		Bank t3 = new Bank("Mrigank", 3);
-		int[] mNewBalEntries = { 6000, 8000 };
+		int[] mNewBalEntries = { 6000, 8000, 8000, 8000, 8000 }; //Balance checked for defined time interval.
 		t3.transaction(6000, mNewBalEntries);
 
 		System.out.println("Total debit transactions: " + dTotalCount);
