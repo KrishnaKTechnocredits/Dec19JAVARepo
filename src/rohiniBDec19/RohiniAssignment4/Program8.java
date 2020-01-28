@@ -1,4 +1,5 @@
 package rohiniBDec19.RohiniAssignment4;
+/*WAP for diamond*/
 
 public class Program8 {
 	public static void main(String[] args) {
