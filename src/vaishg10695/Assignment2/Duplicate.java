@@ -4,22 +4,18 @@ length 6 contains numbers {0, 3, 1, 2, 3}, then duplicated number is 3 */
 
 package vaishg10695.Assignment2;
 
-public class Duplicate 
-{
-	void duplicateNumber(String n)
-	{
-		for(int i=0;i<n.length();i++)
-			for(int j=i+1;j<n.length();j++)
-			{
-				if(n.charAt(i)==n.charAt(j))
-					System.out.println("Duplicate number is: "+n.charAt(i));
+public class Duplicate {
+	void duplicateNumber(String n) {
+		for (int i = 0; i < n.length(); i++) // start traveling from 1st element
+			for (int j = i + 1; j < n.length(); j++) { // start traveling from 2nd element
+				if (n.charAt(i) == n.charAt(j))
+					System.out.println("Duplicate number is: " + n.charAt(i));
 			}
 	}
-	
-	public static void main(String[] args) 
-	{
-		Duplicate dub=new Duplicate();
-		String num= "4031234";
+
+	public static void main(String[] args) {
+		Duplicate dub = new Duplicate();
+		String num = "4031234";
 		dub.duplicateNumber(num);
 	}
 
