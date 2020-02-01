@@ -7,6 +7,7 @@ package poonamDPracticeTest;
 public class StringNumLetters {
 	static void printLettersNum(String str)
 	{
+
 		String Num = "";
 		String SmallLetters = "";
 		String CapitalLetters = "";
