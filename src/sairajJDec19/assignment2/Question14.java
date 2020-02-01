@@ -1,5 +1,5 @@
 package sairajJDec19.assignment2;
-
+// to print array elements which are even
 public class Question14 {
 	
 	void evenArrayNum(int[]a) {
