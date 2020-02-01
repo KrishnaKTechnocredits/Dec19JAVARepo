@@ -58,7 +58,7 @@ public class Constructor1 {
 	}
 
 	public Constructor1(String name, long accNum, long bal, long deposite, long withdraw) {
-		this.nameOfAcctHolder = name;
+    this.nameOfAcctHolder = name;
 		this.acctNumber = accNum;
 		this.balance = bal;
 		this.depositeAmt = deposite;
