@@ -7,6 +7,8 @@ package poonamDPracticeTest;
 public class StringNumLetters {
 	static void printLettersNum(String str)
 	{
+
+		String Num = "";
 		String SmallLetters = "";
 		String CapitalLetters = "";
 		String SpclChar = "";
@@ -15,27 +17,29 @@ public class StringNumLetters {
 		for(int i=0;i<str.length();i++)
 		{ 
 			char ch = str.charAt(i);
-			
-			if(Character.isDigit(ch))
-			{
-				int digit = Integer.parseInt(String.valueOf(ch));
-				if (digit % 2!=0)
-					{
-						OddSum = OddSum + digit;                   //Odd numbers sum
-					}
-				else
-					 {
+			boolean isNum = true;
+			boolean isLetter = true;
+			if(isNum = Character.isDigit(ch))
+				{
+					Num = Num + ch;
+					int digit = Integer.parseInt(String.valueOf(ch));
+					  if (digit % 2!=0)
+					  	{
+						  OddSum = OddSum + digit;                   //Odd numbers sum
+					  	}
+					  else
+					  {
 						  EvenSum = EvenSum + digit;                 // Even numbers sum
-					 }
+					  }
 				}
 			
-			else if (Character.isLetter(ch))
+			else if (isLetter = Character.isLetter(ch))
 				{
-					if (Character.isLowerCase(ch))
+					if (isLetter = Character.isLowerCase(ch))
 						{
 							SmallLetters = SmallLetters + ch;        // Small letters
 						}
-					else if(Character.isUpperCase(ch))
+					else if(isLetter = Character.isUpperCase(ch))
 					  	{
 						  CapitalLetters = CapitalLetters + ch;      // Capital letters
 					  	}
