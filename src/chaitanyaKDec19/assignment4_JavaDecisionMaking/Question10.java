@@ -1,5 +1,11 @@
 package chaitanyaKDec19.assignment4_JavaDecisionMaking;
 
+/*
+ * Write a program to calculate area of Rectangle, area of Triangle and area of Circle usingswitch statement. Make it a menu drivenprogram..
+Formulas:-Area Of rectangle=length*breadth Area oftriangle=1/2*base*height
+Area ofCircle=3.14*radius*radius
+ */
+
 import java.util.Scanner;
 
 public class Question10 {
@@ -8,6 +14,7 @@ public class Question10 {
 
 		Scanner scanner = new Scanner(System.in);
 
+		// Displaying MENU to user and getting input from user
 		System.out.println("Please note our MENU has changed:");
 		System.out.println("1. Area of a Rectangle");
 		System.out.println("2. Area of a Triangle");
@@ -15,6 +22,7 @@ public class Question10 {
 		System.out.print("Please select one of the menu: ");
 		int option = scanner.nextInt();
 
+		// Calling method to take approriate action as per menu selection
 		displayArea(option);
 	}
 
