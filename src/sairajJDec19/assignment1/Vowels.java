@@ -1,5 +1,6 @@
 package sairajJDec19.assignment1;
-class Vowels
+
+public class Vowels
 {
   int getCount(String s)
   {
@@ -31,23 +32,4 @@ class Vowels
     Vowels v1 = new Vowels();
     System.out.println(v1.getCount(temp));
   }
-
-      /*public static void main(String[] args) {
-      String sa = "Sairaj";
-      int count = 0;
-      for (int j =0;j<sa.length() ;j++ ) {
-        char ch = sa.charAt(j);
-        int a = 0;
-        int b = 0;
-        int c = 0;
-        int d = 0;
-        int e = 0;
-        if (ch == '0') {
-          count = count + 1;
-        }
-        else {
-        }
-      }
-      System.out.println(count);
-    }*/
 }

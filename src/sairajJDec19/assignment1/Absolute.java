@@ -1,6 +1,6 @@
 package sairajJDec19.assignment1;
 
-class Absolute
+public class Absolute
 {
   int printAbsolute(int n, int m)
   {

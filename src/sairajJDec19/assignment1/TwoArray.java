@@ -1,5 +1,6 @@
 package sairajJDec19.assignment1;
-class TwoArray
+
+public class TwoArray
 {
   static void addArrays(int[]a, int[]b)
   {

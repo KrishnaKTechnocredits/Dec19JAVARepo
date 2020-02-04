@@ -1,5 +1,6 @@
 package sairajJDec19.assignment1;
-class Count
+
+public class Count
 {
 	void getCount(String s)
 	{	
