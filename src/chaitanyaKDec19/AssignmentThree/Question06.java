@@ -24,7 +24,7 @@ public class Question06 {
 		int j = maxLength - 1;
 
 		// displaying longest string in reverse format
-		while (j > 0) {
+		while (j >= 0) {
 
 			System.out.print(longestString.charAt(j));
 			j--;
