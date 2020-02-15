@@ -17,8 +17,7 @@ public class Program5 {
 
 				String output = String.valueOf(ch);
 				System.out.println(output);
-			} else
-				System.out.println("");
+			}
 		}
 	}
 }
